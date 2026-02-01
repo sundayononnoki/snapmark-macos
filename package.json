@@ -1,0 +1,24 @@
+{
+  "name": "snapmark",
+  "private": true,
+  "version": "0.1.0",
+  "description": "macOS 15+ screenshot + markup app (React Native macOS + Swift native module)",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "jest --runInBand",
+    "lint": "eslint .",
+    "format": "prettier -w .",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.0",
+    "eslint": "^9.20.0",
+    "eslint-config-prettier": "^10.0.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
+}
